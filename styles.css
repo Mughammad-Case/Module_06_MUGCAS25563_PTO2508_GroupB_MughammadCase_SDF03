@@ -16,8 +16,24 @@ body {
     background-color: #fafafa;
     color: #262626;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 img {
     display: block;
 }
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Created 2 columns in profile */
+}
+
+.profile-user-settings, .profile-stats ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; /* Created 3 rows in second column of profile */
+}
+
