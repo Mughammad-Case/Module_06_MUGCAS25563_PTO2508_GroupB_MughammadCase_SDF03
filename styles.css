@@ -16,18 +16,19 @@ body {
     background-color: #fafafa;
     color: #262626;
     padding-bottom: 3rem;
+    margin: 0%; /* Removed default margin */
 }
 
 img {
     display: block;
+    width: 100%;
 }
 
 .container {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 auto;
     border: 5px solid red;
-    text-align: center;
-    display: grid
+    max-width: 935px;
+    padding: 4rem 0; /* Used rem value for responsiveness */
 }
 
 .profile {
