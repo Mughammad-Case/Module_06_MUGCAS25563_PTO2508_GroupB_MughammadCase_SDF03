@@ -26,11 +26,13 @@ img {
 
 .container {
     margin: 0 auto;
-    border: 5px solid red;
     max-width: 90rem;
-    padding: 4rem 0; /* Used rem value for responsiveness */
-    display: flex;
-    justify-content: center;
+    padding: 0 4rem; /* Used rem value for responsiveness */
+}
+
+header {
+    border-bottom: 0.1rem solid none;
+    padding: 4rem 0;
 }
 
 .profile {
@@ -51,7 +53,7 @@ img {
 .profile-user-settings, .profile-stats ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center; /* Created 3 rows in second column of profile */
     gap: 30px;
 }
