@@ -39,11 +39,11 @@ header {
 
 .profile {
     display: flex;
-    padding: 20px;
+    padding: 20px;  /* Created 3 rows in second column of profile */
 }
 
 .profile-image {
-    margin-right: 3rem;
+    margin-right: 4rem;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -58,8 +58,24 @@ header {
 
 .profile-user-settings {
     display: flex;
-    align-items: center;  /* Created 3 rows in second column of profile */
-    margin-top: 2rem;
+    gap: 3rem;
+    align-items: center; 
+    margin-top: 3rem;
+}
+
+.profile-edit-btn {
+    background-color: #fafafa;
+    border: 1px solid #c5c4c4;
+    padding: 3px 10px 3px 10px;
+    border-radius: 3px;
+}
+
+.profile-settings-btn {
+    background-color: #fafafa;
+    font-size: 1.9rem;
+    border: none;
+    padding: 0;
+    margin-left: 1rem;
 }
 
 .profile-user-name {
@@ -76,7 +92,7 @@ header {
 }
 
 .profile-stats {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 4rem;
     font-size: 1.2rem;
 }
