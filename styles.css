@@ -63,6 +63,14 @@ header {
     margin-top: 3rem;
 }
 
+.btn, .gallery-item {
+    cursor: pointer;
+}
+
+.profile-user-name {
+    cursor: text;
+}
+
 .profile-edit-btn {
     background-color: #fafafa;
     border: 1px solid #c5c4c4;
