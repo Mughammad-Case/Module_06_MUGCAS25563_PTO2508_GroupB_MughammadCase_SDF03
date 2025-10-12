@@ -28,7 +28,7 @@ img {
 
 .container {
   margin: 0 auto;
-  max-width: 65rem;
+  max-width: 72rem;
   padding: 0 4rem; /* Used rem value for responsiveness */
 }
 
