@@ -161,3 +161,28 @@ header {
     width: 0;
     height: 0;
 }
+
+/* Loading animation */
+
+.loader {
+    border: 5px solid #fafafa;
+    border-top: 5px solid #0f5329;
+    border-right: 5px solid #0f5329;
+    border-bottom: 5px solid #0f5329;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: 2.5rem;
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
